@@ -1,0 +1,329 @@
+/****************************************************/
+/* BELOW 992PX (tablet) */
+/****************************************************/
+
+@media (max-width: 62em) {
+	body {
+		background-size: 3000px;
+	}
+	.desktop-header {
+		display: none;
+	}
+
+	.mobile-tablet-header {
+		display: flex;
+		padding: 4px 4px 4px 11px;
+		align-items: center;
+		align-self: center;
+		width: 576px;
+		height: 50px;
+
+		position: relative;
+		z-index: 100;
+
+		opacity: 1;
+		pointer-events: auto;
+		visibility: visible;
+		transform: translateX(0);
+	}
+
+	.line {
+		width: 42px;
+		height: 0px;
+		color: #9c9c9c;
+		border: 3px solid #c4c4c4;
+		border-radius: 5px;
+		margin: 7px;
+	}
+
+	.menu-dropdown {
+		background-color: #333;
+		width: 576px;
+		height: 228px;
+		padding: 55px 10px 0px 10px;
+		/* opacity: 0; */
+
+		top: -280px;
+		position: relative;
+		margin-bottom: -226px;
+
+		display: flex;
+		flex-direction: column;
+		align-self: center;
+		gap: 5px;
+	}
+
+	.divider {
+		width: 550px;
+		height: 0px;
+		border: 0.25px solid #7f7f7f;
+		border-radius: 2px;
+	}
+
+	.label-icon {
+		width: 550px;
+		font-size: 17.5px;
+		font-weight: 700;
+		text-decoration: none;
+
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.white-hover:active,
+	.white-hover:hover {
+		color: #fff;
+	}
+
+	.blue-hover:active,
+	.blue-hover:hover {
+		color: #00cdff;
+	}
+
+	.active {
+		color: #febd1d;
+	}
+
+	.inactive {
+		color: #7f7f7f;
+	}
+
+	main {
+		width: 576px;
+		display: flex;
+		padding: 20px 30px;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 15px;
+		align-self: center;
+	}
+
+	.boss {
+		width: 312px;
+	}
+
+	.check-it-out {
+		font-size: 32px;
+	}
+
+	.steps {
+		width: 516px;
+	}
+
+	.more-tickets {
+		width: 476px;
+	}
+
+	.blurbs {
+		display: none;
+	}
+
+	.small-blurbs {
+		width: 932px;
+		display: flex;
+		/* height: 219px; */
+		padding: 0 60px;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 15px;
+		align-self: center;
+	}
+
+	.blurb {
+		display: flex;
+		padding: 0px 40px;
+		justify-content: center;
+		align-items: center;
+		gap: 16px;
+		align-self: center;
+	}
+
+	.blurb-row {
+		display: block;
+	}
+
+	.blurb-paragraph {
+		font-size: 14px;
+	}
+
+	.blurb-crush {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 16px;
+		align-self: stretch;
+	}
+
+	.blurb-text-crush {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 3px;
+		flex: 1 0 0;
+		width: 405px;
+	}
+
+	.blurb-title-crush {
+		font-size: 22px;
+	}
+
+	.img5 {
+		width: 90px;
+		height: 84px;
+	}
+
+	.sign-up,
+	.sign-up:link,
+	.sign-up:visited {
+		width: 476px;
+		height: 69px;
+		font-size: 34px;
+	}
+
+	footer {
+		width: 576px;
+	}
+
+	.privacy {
+		font-size: 13.3px;
+	}
+
+	.copyright {
+		font-size: 14px;
+	}
+}
+
+/****************************************************/
+/* BELOW 577PX (mobile) */
+/****************************************************/
+
+@media (max-width: 36em) {
+	body {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.menu-dropdown {
+		width: 100%;
+	}
+
+	.divider {
+		width: 100%;
+	}
+
+	.label-icon {
+		width: 100%;
+	}
+
+	.mobile-tablet-header {
+		width: 100%;
+	}
+
+	.line {
+		width: 50px;
+		height: 0px;
+		color: #9c9c9c;
+		border: 3px solid #c4c4c4;
+		border-radius: 5px;
+		margin: 7px;
+	}
+
+	.img-logo {
+		width: 200px;
+	}
+
+	main {
+		display: flex;
+		padding: 20px 30px;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 15px;
+		width: 100%;
+		height: auto;
+		margin-bottom: 20px;
+	}
+
+	.boss {
+		width: 184px;
+	}
+
+	.check-it-out {
+		font-size: 20px;
+	}
+
+	.steps {
+		width: 100%;
+		height: auto;
+	}
+
+	.more-tickets {
+		width: 100%;
+		height: auto;
+	}
+
+	.small-blurbs {
+		width: 100%;
+		padding: 0;
+	}
+
+	.blurbs {
+		width: 100%;
+	}
+
+	.blurb {
+		width: 100%;
+		padding: 0;
+	}
+
+	.blurb-text {
+		width: 100%;
+	}
+
+	.blurb-title {
+		width: 100%;
+
+		font-size: 14px;
+	}
+
+	.blurb-paragraph {
+		width: 100%;
+
+		font-size: 12px;
+	}
+
+	.all-images {
+		width: 47.5px;
+	}
+
+	.img5 {
+		width: 47.5px;
+		height: 44px;
+	}
+
+	.sign-up,
+	.sign-up:link,
+	.sign-up:visited {
+		font-size: 19px;
+		display: flex;
+		width: 100%;
+		height: 40px;
+		border-radius: 8px;
+	}
+
+	footer {
+		width: 100%;
+	}
+
+	.desktop-footer {
+		display: none;
+	}
+
+	.mobile-tablet-footer {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
